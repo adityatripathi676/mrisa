@@ -95,16 +95,6 @@ const teamMembers = {
       name: "Nanda Kishore avulamanda ",
       position: "Core Member",
       year: "2nd Year",
-      image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce",
-      social: {
-        linkedin: "https://linkedin.com",
-        github: "https://github.com"
-      }
-    },
-    {
-      name: "Nisha",
-      position: "Core Member",
-      year: "3rd Year",
       image: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef",
       social: {
         linkedin: "https://linkedin.com",
@@ -112,7 +102,7 @@ const teamMembers = {
       }
     },
     {
-      name: "Om Pushpraj Patel",
+      name: "Nisha",
       position: "Core Member",
       year: "3rd Year",
       image: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef",
@@ -144,8 +134,8 @@ const teamMembers = {
   ],
   domain_heads: [
     {
-      name: "Alex Turner",
-      position: "Core Member",
+      name: "Ayush Choudhary",
+      position: "Network Security Lead",
       year: "3rd Year",
       image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6",
       social: {
@@ -154,9 +144,9 @@ const teamMembers = {
       }
     },
     {
-      name: "Sophie Wang",
-      position: "Core Member",
-      year: "2nd Year",
+      name: "Om Pusp Raj Patel",
+      position: "Web Security Lead",
+      year: "3rd Year",
       image: "https://images.unsplash.com/photo-1517841905240-472988babdf9",
       social: {
         linkedin: "https://linkedin.com",
@@ -164,9 +154,9 @@ const teamMembers = {
       }
     },
     {
-      name: "James Wilson",
-      position: "Core Member",
-      year: "3rd Year",
+      name: "Saurav Kumar",
+      position: "IoT Security Lead",
+      year: "2nd Year",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e",
       social: {
         linkedin: "https://linkedin.com",
@@ -174,20 +164,20 @@ const teamMembers = {
       }
     },
     {
-      name: "Ava Martinez",
-      position: "Core Member",
+      name: "Madhav Tyagi",
+      position: "Digital Forensics Lead",
       year: "2nd Year",
-      image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce",
+      image: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef",
       social: {
         linkedin: "https://linkedin.com",
         github: "https://github.com"
       }
     },
     {
-      name: "Ryan Thompson",
-      position: "Core Member",
-      year: "2nd Year",
-      image: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef",
+      name: "Bhavya Anand",
+      position: "Cryptography Lead",
+      year: "3rd Year",
+      image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce",
       social: {
         linkedin: "https://linkedin.com",
         github: "https://github.com"
