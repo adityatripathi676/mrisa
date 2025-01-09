@@ -73,11 +73,11 @@ export default function JoinCard() {
               </button>
               
               <div className="text-center">
-                <h3 className="text-xl font-bold mb-4">Join MRISA</h3>
+                <h3 className="text-xl font-bold mb-4">Join MRISA WhatsApp Community</h3>
                 <div className="bg-white p-4 rounded-xl shadow-inner mb-4">
                   {/* Replace with your actual QR code */}
                   <img
-                    src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://instagram.com/"
+                    src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://chat.whatsapp.com/KWotfQxNSvC47tfbXXv36f"
                     alt="Join QR Code"
                     className="w-48 h-48 mx-auto"
                   />
