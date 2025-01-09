@@ -10,7 +10,7 @@ const teamMembers = {
       year: "4th Year",
       image: "https://media.licdn.com/dms/image/v2/D5603AQE_CLjQhLVfag/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1731636718389?e=1741824000&v=beta&t=vQ_Gn2zyprXPiwKKpPcviti-zEHyyM5biiKvQph6NGo",
       social: {
-        linkedin: "https://linkedin.com",
+        linkedin: "https://www.linkedin.com/in/yashasviyadav007/",
         github: "https://github.com",
         instagram: "https://instagram.com"
       }
@@ -19,9 +19,9 @@ const teamMembers = {
       name: "Shivansh Saxena",
       position: "Vice President",
       year: "4th Year",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+      image: "https://media.licdn.com/dms/image/v2/D5603AQFHodtQrIQ33w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1721995847687?e=1741824000&v=beta&t=nC9UKFqVid0woY7qn6TWylm-GONhKn4hJbMaTsaIFbI",
       social: {
-        linkedin: "https://linkedin.com",
+        linkedin: "https://www.linkedin.com/in/shivansh-saxena-6a31b3248/",
         github: "https://github.com",
         instagram: "https://instagram.com"
       }
@@ -30,9 +30,9 @@ const teamMembers = {
       name: "P Bhaskar Rao",
       position: "Secretary",
       year: "3rd Year",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80",
+      image: "https://media.licdn.com/dms/image/v2/D4D03AQE0u0jwLliUmg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1698470402913?e=1741824000&v=beta&t=-Gx5_OlgjhRSiJj_gaw3wVbQ1Ia6gX9CPutBByiJk3s",
       social: {
-        linkedin: "https://linkedin.com",
+        linkedin: "https://www.linkedin.com/in/p-bhaskar-rao-140a24227/",
         github: "https://github.com",
         instagram: "https://instagram.com"
       }
@@ -41,9 +41,9 @@ const teamMembers = {
       name: "Aditya Tripathi",
       position: "Operations Head",
       year: "4th Year",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+      image: "https://media.licdn.com/dms/image/v2/D4D03AQE_UKmfsMOsfg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1694882203503?e=1741824000&v=beta&t=43222cEO756214lf0z1-8o45G5iGbJDYrKHMQOFaghY",
       social: {
-        linkedin: "https://linkedin.com",
+        linkedin: "https://www.linkedin.com/in/aditya766/",
         github: "https://github.com",
         instagram: "https://instagram.com"
       }
@@ -52,9 +52,9 @@ const teamMembers = {
       name: "Jiya Siwach",
       position: "Media | PR",
       year: "3rd Year",
-      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb",
+      image: "https://media.licdn.com/dms/image/v2/D5603AQFyxU_onmcTLw/profile-displayphoto-shrink_400_400/B56ZQig1BoG8Ag-/0/1735745820107?e=1741824000&v=beta&t=4j4PAJl9Tbr9xQ4E_IvAdO4MJhI6NHCryV-YZ9hY5nM",
       social: {
-        linkedin: "https://linkedin.com",
+        linkedin: "https://www.linkedin.com/in/jiya-siwach-9b5826310/",
         github: "https://github.com",
         instagram: "https://instagram.com"
       }
