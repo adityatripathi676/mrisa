@@ -18,7 +18,7 @@ const teamMembers = {
     {
       name: "Shivansh Saxena",
       position: "Vice President",
-      year: "4th Year",
+      year: "3rd Year",
       image: "https://media.licdn.com/dms/image/v2/D5603AQFHodtQrIQ33w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1721995847687?e=1741824000&v=beta&t=nC9UKFqVid0woY7qn6TWylm-GONhKn4hJbMaTsaIFbI",
       social: {
         linkedin: "https://www.linkedin.com/in/shivansh-saxena-6a31b3248/",
@@ -29,7 +29,7 @@ const teamMembers = {
     {
       name: "P Bhaskar Rao",
       position: "Secretary",
-      year: "3rd Year",
+      year: "4th Year",
       image: "https://media.licdn.com/dms/image/v2/D4D03AQE0u0jwLliUmg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1698470402913?e=1741824000&v=beta&t=-Gx5_OlgjhRSiJj_gaw3wVbQ1Ia6gX9CPutBByiJk3s",
       social: {
         linkedin: "https://www.linkedin.com/in/p-bhaskar-rao-140a24227/",
@@ -40,7 +40,7 @@ const teamMembers = {
     {
       name: "Aditya Tripathi",
       position: "Operations Head",
-      year: "4th Year",
+      year: "2nd Year",
       image: "https://media.licdn.com/dms/image/v2/D4D03AQE_UKmfsMOsfg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1694882203503?e=1741824000&v=beta&t=43222cEO756214lf0z1-8o45G5iGbJDYrKHMQOFaghY",
       social: {
         linkedin: "https://www.linkedin.com/in/aditya766/",
@@ -51,7 +51,7 @@ const teamMembers = {
     {
       name: "Jiya Siwach",
       position: "Media | PR",
-      year: "3rd Year",
+      year: "2nd Year",
       image: "https://media.licdn.com/dms/image/v2/D5603AQFyxU_onmcTLw/profile-displayphoto-shrink_400_400/B56ZQig1BoG8Ag-/0/1735745820107?e=1741824000&v=beta&t=4j4PAJl9Tbr9xQ4E_IvAdO4MJhI6NHCryV-YZ9hY5nM",
       social: {
         linkedin: "https://www.linkedin.com/in/jiya-siwach-9b5826310/",
@@ -61,6 +61,88 @@ const teamMembers = {
     }
   ],
   core: [
+    {
+      name: "Abhijeet Kharol",
+      position: "Core Member",
+      year: "3rd Year",
+      image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6",
+      social: {
+        linkedin: "https://linkedin.com",
+        github: "https://github.com"
+      }
+    },
+    {
+      name: "Sneha Khurana",
+      position: "Core Member",
+      year: "2nd Year",
+      image: "https://images.unsplash.com/photo-1517841905240-472988babdf9",
+      social: {
+        linkedin: "https://linkedin.com",
+        github: "https://github.com"
+      }
+    },
+    {
+      name: "Bidhu Mitra",
+      position: "Core Member",
+      year: "2nd Year",
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e",
+      social: {
+        linkedin: "https://linkedin.com",
+        github: "https://github.com"
+      }
+    },
+    {
+      name: "Nanda Kishore avulamanda ",
+      position: "Core Member",
+      year: "2nd Year",
+      image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce",
+      social: {
+        linkedin: "https://linkedin.com",
+        github: "https://github.com"
+      }
+    },
+    {
+      name: "Nisha",
+      position: "Core Member",
+      year: "3rd Year",
+      image: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef",
+      social: {
+        linkedin: "https://linkedin.com",
+        github: "https://github.com"
+      }
+    },
+    {
+      name: "Om Pushpraj Patel",
+      position: "Core Member",
+      year: "3rd Year",
+      image: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef",
+      social: {
+        linkedin: "https://linkedin.com",
+        github: "https://github.com"
+      }
+    },
+    {
+      name: "Subodh Sharma",
+      position: "Core Member",
+      year: "1st Year",
+      image: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef",
+      social: {
+        linkedin: "https://linkedin.com",
+        github: "https://github.com"
+      }
+    },
+    {
+      name: "Aadarsh Bonthula",
+      position: "Core Member",
+      year: "1st Year",
+      image: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef",
+      social: {
+        linkedin: "https://linkedin.com",
+        github: "https://github.com"
+      }
+    }
+  ],
+  domain_heads: [
     {
       name: "Alex Turner",
       position: "Core Member",
@@ -210,6 +292,7 @@ export default function Team() {
         </motion.div>
 
         <TeamSection title="Leadership Team" members={teamMembers.heads} />
+        <TeamSection title="Domain Heads" members={teamMembers.domain_heads} />
         <TeamSection title="Core Team" members={teamMembers.core} />
       </div>
     </div>
