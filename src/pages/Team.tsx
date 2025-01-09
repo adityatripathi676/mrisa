@@ -5,10 +5,10 @@ import { Github, Linkedin, Instagram, Twitter } from 'lucide-react';
 const teamMembers = {
   heads: [
     {
-      name: "Sarah Johnson",
+      name: "Yashashvi Yadav",
       position: "Club President",
       year: "4th Year",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+      image: "https://media.licdn.com/dms/image/v2/D5603AQE_CLjQhLVfag/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1731636718389?e=1741824000&v=beta&t=vQ_Gn2zyprXPiwKKpPcviti-zEHyyM5biiKvQph6NGo",
       social: {
         linkedin: "https://linkedin.com",
         github: "https://github.com",
@@ -16,8 +16,8 @@ const teamMembers = {
       }
     },
     {
-      name: "Michael Chen",
-      position: "Technical Head",
+      name: "Shivansh Saxena",
+      position: "Vice President",
       year: "4th Year",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
       social: {
@@ -27,8 +27,8 @@ const teamMembers = {
       }
     },
     {
-      name: "Emily Rodriguez",
-      position: "Research Head",
+      name: "P Bhaskar Rao",
+      position: "Secretary",
       year: "3rd Year",
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80",
       social: {
@@ -38,8 +38,8 @@ const teamMembers = {
       }
     },
     {
-      name: "David Kim",
-      position: "Events Head",
+      name: "Aditya Tripathi",
+      position: "Operations Head",
       year: "4th Year",
       image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
       social: {
@@ -49,8 +49,8 @@ const teamMembers = {
       }
     },
     {
-      name: "Priya Patel",
-      position: "PR Head",
+      name: "Jiya Siwach",
+      position: "Media | PR",
       year: "3rd Year",
       image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb",
       social: {
