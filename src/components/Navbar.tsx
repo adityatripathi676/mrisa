@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Menu, X, Sun, Moon } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTheme } from '../context/ThemeContext';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,6 +24,7 @@ export default function Navbar() {
         <motion.div 
           initial={{ y: -100 }}
           animate={{ y: 0 }}
+          transition={{ type: 'spring', stiffness: 300, damping: 30 }}
           className="w-[75%] bg-white/70 dark:bg-gray-900/70 backdrop-blur-lg rounded-2xl shadow-lg border border-gray-200/20 dark:border-gray-700/20"
         >
           <div className="flex justify-between h-16 items-center px-6">
@@ -47,6 +48,7 @@ export default function Navbar() {
                     <motion.div
                       layoutId="activeTab"
                       className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-red-500 to-purple-500"
+                      transition={{ type: 'spring', stiffness: 400, damping: 30 }}
                     />
                   )}
                 </Link>
@@ -77,20 +79,22 @@ export default function Navbar() {
             </div>
           </div>
 
-          {isOpen && (
-            <motion.div 
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="md:hidden"
-            >
-              <div className="px-4 pt-2 pb-3 space-y-1">
+          <AnimatePresence>
+            {isOpen && (
+              <motion.div 
+                initial={{ opacity: 0, y: -20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -20 }}
+                transition={{ type: 'spring', stiffness: 300, damping: 30 }}
+                className="md:hidden"
+              >
                 {navItems.map((item) => (
                   <Link
                     key={item.name}
                     to={item.path}
-                    className={`block px-3 py-2 rounded-xl transition-colors ${
+                    className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${
                       isActive(item.path)
-                        ? 'text-red-600 dark:text-red-400 bg-gray-100 dark:bg-gray-800'
+                        ? 'text-red-600 dark:text-red-400'
                         : 'text-gray-700 dark:text-gray-300 hover:text-red-600 dark:hover:text-red-400'
                     }`}
                     onClick={() => setIsOpen(false)}
@@ -98,9 +102,9 @@ export default function Navbar() {
                     {item.name}
                   </Link>
                 ))}
-              </div>
-            </motion.div>
-          )}
+              </motion.div>
+            )}
+          </AnimatePresence>
         </motion.div>
       </div>
     </nav>
