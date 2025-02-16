@@ -5,8 +5,43 @@
     <link rel="icon" type="image/png" href="./src/images/mrisa.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MRISA</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        overflow-x: hidden;
+      }
+
+      #root {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      * {
+        box-sizing: border-box;
+        transition: all 0.3s ease-in-out;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .smooth-scroll {
+        scroll-behavior: smooth;
+      }
+    </style>
   </head>
-  <body>
+  <body class="smooth-scroll">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
