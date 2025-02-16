@@ -7,17 +7,17 @@ const slides = [
     image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
     title: "Securing Tomorrow's Digital World",
     description: "Join MRISA to explore the frontiers of cybersecurity"
-  },
-  {
-    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
-    title: "Learn. Hack. Protect.",
-    description: "Develop your skills with hands-on experience"
-  },
-  {
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3",
-    title: "Building Cyber Warriors",
-    description: "Transform your passion into expertise"
   }
+  // {
+  //   image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
+  //   title: "Learn. Hack. Protect.",
+  //   description: "Develop your skills with hands-on experience"
+  // },
+  // {
+  //   image: "https://images.unsplash.com/photo-1563986768609-322da13575f3",
+  //   title: "Building Cyber Warriors",
+  //   description: "Transform your passion into expertise"
+  // }
 ];
 
 export default function HeroSlider() {
