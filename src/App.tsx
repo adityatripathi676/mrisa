@@ -7,7 +7,7 @@ import Loader from './components/Loader';
 import Home from './pages/Home';
 import Events from './pages/Events';
 import Contact from './pages/Contact';
-import { Analytics } from "@vercel/analytics/react";
+// import { Analytics } from "@vercel/analytics/react";
 import Team from './pages/Team';
 
 export default function App() {
@@ -22,7 +22,7 @@ export default function App() {
               <Route path="/events" element={<Events />} />
               <Route path="/team" element={<Team />} />
               <Route path="/contact" element={<Contact />} />
-              <Analytics/>
+              {/* <Analytics/> */}
             </Routes>
           </Suspense>
           <Footer />
