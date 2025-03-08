@@ -86,7 +86,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 If you have any questions or suggestions, feel free to reach out to us:
 
-- **Email**: mrisa@mriu.edu.in
+- **Email**: mrisa.set@mriu.edu.in
 - **Phone**: +91 XXX XXX XXXX
 
 You can also join our [WhatsApp community](https://chat.whatsapp.com/KWotfQxNSvC47tfbXXv36f) for the latest updates and discussions.
